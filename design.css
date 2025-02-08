@@ -1,34 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
-    margin: 0;
-    padding: 0;
+    /* margin: 0; */
+    /* padding: 0; */
     box-sizing: border-box;
 }
 html{
     font-size: 50px;
 }
 body{
-    font-family: "Poppins", serif;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 50px;
+    margin: auto;
+    width: 70%;
+    background-image: radial-gradient(#ccc, #ccc);
+   
   }
   h1{
-    font-size: 0.8rem;
-    font-family: "Poppins", serif;
-    font-weight: 700;
-    text-align: center;
-    background-color: #888;
-    padding-inline-start: 30px;
-    padding-inline-end: 30px;}
-h2{
+    text-transform:capitalize;
+font-size: 0.8rem;
+border-block-start: 20px,solid;
+border-block-end: 20px,solid;
+padding: ;
+  }
+    h2{
     font-size: 0.6rem;
     font-family: "Poppins", serif;
     font-weight: 700;
     text-align: center;
     background-color: #888;
-    padding-inline-start: 30px;
-    padding-inline-end: 30px;
+    padding-block: 30px;
+    border-block: 30px, solid;
 }
 h1,h2::first-letter{
      text-transform:capitalize;
@@ -42,14 +41,14 @@ p{
     line-height: 1.01rem;
 }
 section,dl{
-    font-size: 0.5rem;
+    font-size: 1rem;
     margin: 20px;
     padding: 20px;
     background-color: #f0f0f0;
 }
-img :nth-of-type(odd){
+img:nth-of-type(odd){
     border-radius:50px 0px 50px 0px;
 }
-img :nth-of-type(even){
+img:nth-of-type(even){
     border-radius:0px 50px 0px 50px;
 }
