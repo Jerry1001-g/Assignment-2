@@ -29,7 +29,7 @@ padding: ;
     padding-block: 30px;
     border-block: 30px, solid;
 }
-h1,h2::first-letter{
+h1::first-letter,h2::first-letter{
      text-transform:capitalize;
      color: #f00;
 }
